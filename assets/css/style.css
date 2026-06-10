@@ -124,6 +124,6 @@ body {
 /*Footer*/
 .footer {
     background: linear-gradient(180deg, #4b3119,#2c1c0f);
-    border-bottom:3px solid #efbc2f;
+    border-top:3px solid #efbc2f;
     box-shadow:0 3px 15px #00000066;
 }
