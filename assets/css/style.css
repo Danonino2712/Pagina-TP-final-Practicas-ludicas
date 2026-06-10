@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #2d067a;
+    background: radial-gradient(circle, #010726 0%, #140028 100%);
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Navbar*/
+.navbar {
+    background: linear-gradient(180deg, #4b3119,#2c1c0f);
+    border-bottom:3px solid #efbc2f;
+    box-shadow:0 3px 15px #00000066;
+}
+
+/*Hero*/
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(#0a001eb3,#0a001ef2), url("../img/familia.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+}
