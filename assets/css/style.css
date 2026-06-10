@@ -16,6 +16,14 @@ body {
     box-shadow:0 3px 15px #00000066;
 }
 
+.nav-link {
+    color: #ede9c5;
+}
+
+.nav-link:hover {
+    color: #c7da00;
+}
+
 /*Hero*/
 .hero {
     height: 100vh;
@@ -33,4 +41,89 @@ body {
 
 .hero-content p {
     font-size: 1.5rem;
+}
+
+/*Secciones de evento*/
+.secciones{
+    padding: 3rem;
+}
+
+.about-block{
+    display:flex;
+    align-items:center;
+    gap:4rem;
+    max-width:1200px;
+    margin:0 auto 6rem auto;
+    padding:1rem;
+    border: 2px solid #a6332e;
+}
+
+.about-block.reverse{
+    flex-direction:row-reverse;
+    border: 2px solid #3c4e91;
+
+}
+
+.about-image{
+    flex:1;
+}
+
+.about-image img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+    border-radius:15px;
+    box-shadow:0 8px 20px #00000066;
+}
+
+.about-text{
+    flex:1;
+}
+
+.about-text h2{
+    color:#efbc2f;
+    margin-bottom:1rem;
+    font-size:2rem;
+}
+
+.about-text p{
+    font-size:1.1rem;
+    line-height:1.8;
+}
+
+/*Sección recorrido*/
+#recorrido {
+    background:#ffffff08;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.datosRecorrido {
+    padding: 1rem;
+}
+
+.mapa-recorrido {
+    border-radius: 15px;
+    box-shadow: 0 10px 30 #00000066;
+}
+
+.card-body {
+    background-color: #17451736;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#faffc5;
+}
+
+/*Actividades*/
+.card{
+    background:#140028;
+    color:#ffffff;
+    border:1px solid #d4af37;
+    padding: 1rem;
+}
+
+/*Footer*/
+.footer {
+    background: linear-gradient(180deg, #4b3119,#2c1c0f);
+    border-bottom:3px solid #efbc2f;
+    box-shadow:0 3px 15px #00000066;
 }

@@ -14,10 +14,10 @@
 <body>
 
     <!--NavBar-->
-    <nav class="navbar navbar-expand-lg"> <!-- para despues se quede fijo¿ fixed-top-->
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#inicio">
-                <img src="assets/img/logo.png" alt="Logo" width="60">
+                <img src="assets/img/logo.png" alt="Logo" width="70">
             </a>
             <button class="navbar-toggler" type="button"data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -42,13 +42,193 @@
             <P>¡Vive una gran aventura a bordo del tren Patagónico! (pensar frase que atrape¿¿¿¿)</P>
             <a class="btn btn-warning btn-lg" href="#inscripcion">Reservar lugar</a>
         </div>
-
-    <!--Secciones-->
-
     </header>
 
+    <!--Sección sobre el evento-->
+    <section id="evento" class="secciones">
 
+        <!-- 1 -->
+        <div class="about-block">
 
+            <div class="about-image">
+                <img src="assets/img/auditorio.png" alt="Auditorio">
+            </div>
+
+            <div class="about-text">
+                <h2>¿Qué es Hogwarts Patagónico Express?</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore laborum in eligendi, obcaecati quam placeat dicta quia incidunt aspernatur atque inventore! Culpa, corrupti modi ab nemo eius quisquam error officia.
+                </p>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="about-block reverse">
+
+            <div class="about-image">
+                <img src="assets/img/comedor.png" alt="comedor">
+            </div>
+
+            <div class="about-text">
+                <h2>Nuestro objetivo</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda corporis odit vitae ab quam eos blanditiis ullam quibusdam modi, veritatis fugit, omnis reprehenderit itaque, deserunt ratione ipsum necessitatibus ipsam quod.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Sección recorrido-->
+    <section id="recorrido">
+        <div class="container">
+            <h2 class="text-center mb-5">Recorrido del Tren Patagónico</h2>
+            
+            <!--Info-->
+            <div class="container text-center datosRecorrido">
+                <div class="row">
+                    <div class="col">
+                        <h4><i class="fa-solid fa-location-dot"></i> Salida</h4>
+                        <p>Viedma.</p>
+                    </div>
+                    <div class="col">
+                        <h4><i class="fa-solid fa-map-location-dot"></i> Destino</h4>
+                        <p>Bariloche.</p>
+                    </div>
+                    <div class="col">
+                        <h4><i class="fa-solid fa-ruler"></i> Distancia</h4>
+                        <p>827Km.</p>
+                    </div>
+                    <div class="col">
+                        <h4><i class="fa-regular fa-clock"></i> Duración</h4>
+                        <p>14-19 horas aprox.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--mapaaaaaaa, deja de perderteee-->
+        <div class="text-center mb-5"> <img src="/assets/img/recorrido.png" alt="mapa" class="img-fluid mapa-recorrido"></div>
+
+        <!--horarios de recorrido-->
+        <div class="row mt-5">
+
+            <div class="col md-6">
+
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <h4>Ida</h4>
+                        <p>Salida desde Viedma:
+                            Miércoles 16 de diciembre a las 10:00hs.
+                        </p>
+                        <p>Llegada a Bariloche:
+                            Jueves 17 de diciembre a las 05:00hs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col md-6">
+                
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <h4>Vuelta</h4>
+                        <p>Salida desde Bariloche:
+                            Jueves 17 de diciembre a las 10:00hs.
+                        </p>
+                        <p>Llegada a Viedma:
+                            Viernes 18 de diciembre a las 05:00
+                        </p>
+                    </div>
+                </div>
+            </div>  
+        </div> 
+
+    </section>
+
+    <!-- Sección actividades -->
+    <section id="actividades" class="py-5">
+        <div class="container">
+            <h2 class="text-center py-2">Actividades destacadas</h2>
+
+            <!--FILA 1-->
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="text-center">
+                            <i class="fa-solid fa-wand-sparkles fa-3x mb-3"></i>
+                            <h5>Caza de la Snitch</h5>
+                            <p>Encuentra la snitch escondida y suma puntos para tu casa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="text-center">
+                            <i class="fa-solid fa-flask fa-3x mb-3"></i>
+                            <h5>Taller de Pociones</h5>
+                            <p>Aprende a combinar ingredientes mágicos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="text-center">
+                            <i class="fa-solid fa-dragon fa-3x mb-3"></i>
+                            <h5>Criaturas Mágicas</h5>
+                            <p>Descubre criaturas fantásticas durante el viaje (son llaveros xD).</p>
+                        </div>
+                    </div>
+                </div>
+                <!--FILA 2-->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="text-center">
+                            <i class="fa-solid fa-film fa-3x mb-3"></i>
+                            <h5>Sala de auditorio</h5>
+                            <p>Serás testigo del primer episodio de la muy esperada serie de Harry Potter dos semanas antes de su lanzamiento.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="text-center">
+                            <i class="fa-solid fa-hat-wizard fa-3x mb-3"></i>
+                            <h5>Torneo de los magos</h5>
+                            <p>Durante todo el viaje los pasajeros acumulan puntos para su casa. La casa que más 
+                                puntos consigue termina figurando en la página web y se les entrega un pin de ganadores.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="text-center">
+                            <i class="fa-solid fa-clover fa-3x mb-3"></i>
+                            <h5>Creación de amuletos mágicos</h5>
+                            <p>pequeño taller donde se les da materiales a los pasajeros 
+                                para formar amuletos que son pequeños souvenires para llevarse a casa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer text-center py-4">
+        <div class="container">
+            <h5>Hogwarts Patagónico Express</h5>
+            <p>Esto es un proyecto académico ficticio realizada para la materia de Prácticas lúdicas.</p>
+            
+            <div class="mt-3">
+                <i class="fa-brands fa-instagram fa-lg mx-2"></i>
+                <i class="fa-brands fa-facebook fa-lg mx-2"></i>
+                <i class="fa-brands fa-x-twitter fa-lg mx-2"></i>
+                <i class="fa-brands fa-youtube fa-lg mx-2"></i>
+            </div>
+        </div>
+    </footer>
 
     
     <!-- Link del bootstrap js-->
