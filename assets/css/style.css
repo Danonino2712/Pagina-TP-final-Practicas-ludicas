@@ -43,6 +43,19 @@ body {
     font-size: 1.5rem;
 }
 
+/*RESPONSIVEEE*/
+@media (max-width: 500px){
+
+.hero-content h1{
+    font-size: 2.3rem;
+}
+
+.hero-content p{
+    font-size: 1rem;
+}
+
+}
+
 /*Secciones de evento*/
 .secciones{
     padding: 2rem;
@@ -69,8 +82,7 @@ body {
 }
 
 .about-image img{
-    width:100%;
-    height:350px;
+    width:90%;
     object-fit:cover;
     border-radius:15px;
     box-shadow:0 8px 20px #00000066;
@@ -91,6 +103,21 @@ body {
     line-height:1.8;
 }
 
+/*para que se vea en celular*/
+@media (max-width: 500px){
+.about-block,
+.about-block.reverse{
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.about-image img{
+    height: auto;
+}
+
+}
+
 /*Sección recorrido*/
 #recorrido {
     background:#ffffff08;
@@ -105,10 +132,12 @@ body {
 .mapa-recorrido {
     border-radius: 15px;
     box-shadow: 0 10px 30 #00000066;
+    max-width: 100%;
+    height: auto;
 }
 
 .card-body {
-    background-color: #17451736;
+    background-color: #164b1636;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:#faffc5;
 }
@@ -126,4 +155,42 @@ body {
     background: linear-gradient(180deg, #4b3119,#2c1c0f);
     border-top:3px solid #efbc2f;
     box-shadow:0 3px 15px #00000066;
+}
+
+/*inscripción*/
+#inscripción {
+    min-height: 100vh;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.formulario {
+    margin: 0 auto;
+    background-color: #2c40832e;
+    border: 2px solid #efbc2f;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 0 20px #efbc2f33;
+}
+
+.form-control,
+.form-select {
+    background-color: #f8f9c3;
+    color: #fff;
+}
+
+/*cronograma*/
+.table {
+    text-align: center;
+    color: #ffffff;
+}
+
+/*no funciona TT*/
+.table thead {
+    background-color: #4b3119 !important;
+    color: #efbc2f;
+}
+
+.table tbody tr {
+    background-color: #3e1468;
 }
